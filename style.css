@@ -1,0 +1,103 @@
+#cart {
+    background-color: rgb(198, 57, 40);
+    color: white;
+    border-color: transparent;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+
+}
+#start {
+    background-color: yellow;
+    color: #2a61fb;
+    border-color: #2a61fb;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+#login {
+    color: white;
+    border-color: transparent;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-image: linear-gradient(to right, #5bd1d6,#9ed38b);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#signup {
+    background-color: white;
+    color: #6749ea;
+    border-color: #6749ea;
+    border: 3px solid;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#subscribe {
+    background-image: linear-gradient(#fac632, #f5a032);
+    color: white;
+    font-weight: bold;
+    border-color: #f6a84a;
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-shadow: grey 2px 2px 2px;
+    font-size: 18px;
+
+}
+#twitter {
+    border-color: #39a2f3;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: white ;
+    color: #39a2f3;
+    
+}
+
+/* Hover styling */
+
+#cart:hover {
+    background-color: #ed4d4f;
+    cursor: pointer;
+}
+
+#start:hover {
+    cursor: pointer;
+    background-color: #2a61fb;
+    color: #fcd835;
+    border-color: #2a61fb;
+
+}
+
+#login:hover {
+    cursor: pointer;
+
+}
+#signup:hover {
+    cursor: pointer;
+    background-color: #6749ea;
+    color: white;
+
+}
+#subscribe:hover {
+    cursor: pointer;
+    background-color: #f6a84a;
+    background-image: none;
+
+}
+#twitter:hover {
+    cursor: pointer;
+    background-color: #39a2f3;
+    color: white;
+    
+
+}
